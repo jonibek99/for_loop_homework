@@ -7,4 +7,7 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    return sum(range(min(A, B), max(A, B) + 1))
+a = int(input())
+b = int(input())
+print(main(a, b))
