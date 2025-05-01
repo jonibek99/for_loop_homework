@@ -5,5 +5,11 @@ def main(N):
         N: int
     Returns:
         float: return  answer
+        
+
     """
-    return
+    for i in range(0,N+1):
+        str(i)+=str(len(i))
+    return i
+b = int(input())
+print(main( b))

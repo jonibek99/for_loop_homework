@@ -6,4 +6,11 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    b=[]
+    for i in list1:
+        b.append(str(i)[:3])
+    return b
+list1=['jonibek','shac','husan','me,003',9333]
+print(main(list1))
+
+
