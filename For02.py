@@ -6,4 +6,6 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    return str(list(range(0,n+1)))
+a=int(input())
+print(main(a))
