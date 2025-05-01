@@ -7,4 +7,9 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    if B>=A:
+        return list(range(B,A-1,-1))
+    return list(range(B,A+1))
+a = int(input())
+b = int(input())
+print(main(a, b))
