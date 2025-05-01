@@ -6,4 +6,7 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    return sum(i for i in range(0,N+1) if i%2!=0)
+b = int(input())
+print(main( b))
+        
